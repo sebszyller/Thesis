@@ -1,0 +1,373 @@
+Data-10-3.psv
+
+one layer:		15k
+	sigmoid:	24.4
+	linear:		20.9
+	tanh:		20.6
+
+two layer:				15k
+	lineaar-linear:		20.7
+	linear-sigmoid:		23.1
+	linear-tanh:			23.5
+	sigmoid-linear:		25.5
+	sigmoid-sigmoid:	26.0
+	sigmoid-tanh:			26.3
+	tanh-linear:			35.5
+	tanh-sigmoid:			15.5
+	tanh-tanh:				17.5
+
+three layer:								15k		100k
+	linear-linear-linear:			20.3	22.5
+	linear-linear-sigmoid:		20.5	23.5
+	linear-linear-tanh:				16.9	21.8
+	linear-sigmoid-linear:		35.4	37.3
+	linear-sigmoid-sigmoid:		30.0	35.1
+	linear-sigmoid-tanh:			37.1	37.0
+	linear-tanh-linear:				28.3	34.2
+	linear-tanh-sigmoid:			30.4	29.5
+	linear-tanh-tanh:					14.9	21.5
+	sigmoid-linear-linear:		23.1	29.6
+	sigmoid-linear-sigmoid:		26.7	39.3
+	sigmoid-linear-tangent:		25.2	30.2
+	sigmoid-sigmoid-linear:		26.2	29.1
+	sigmoid-sigmoid-sigmoid:	27.3	36.1
+	sigmoid-sigmoid-tanh:			22.6	35.1
+	sigmoid-tanh-linear:			24.2	32.2
+	sigmoid-tanh-sigmoid:			24.6	42.8
+	sigmoid-tanh-tanh:				26.3	25.1
+	tanh-linear-linear:				24.2	35.3
+	tanh-linear-sigmoid:			27.9	25.3
+	tanh-linear-tanh:					26.4	35.8
+	tanh-sigmoid-linear:			30.2	39.9
+	tanh-sigmoid-sigmoid:			28.9	33.3
+	tanh-sigmoid-tanh:				30.4	43.2
+	tanh-tanh-linear:					24.7	32.6
+	tanh-tanh-sigmoid:				37.4	29.7
+	tanh-tanh-tanh:						26.9	36.2
+
+four layer:															15k		100k
+	linear-linear-linear-linear:					13.1	19.0
+	linear-linear-linear-sigmoid:					14.4	24.7
+	linear-linear-linear-tanh:						13.3
+	linear-linear-sigmoid-linear:					43.7	38.1
+	linear-linear-sigmoid-sigmoid:				26.0	26.9
+	linear-linear-sigmoid-tanh:						30.3
+	linear-linear-tanh-linear:						34.6	37.3
+	linear-linear-tanh-sigmoid:						33.3	41.7
+	linear-linear-tanh-tanh:							32.1
+	linear-sigmoid-linear-linear:					26.9	43.2
+	linear-sigmoid-linear-sigmoid:				31.1	40.1
+	linear-sigmoid-linear-tanh:						23.9
+	linear-sigmoid-sigmoid-linear:				24.7
+	linear-sigmoid-sigmoid-sigmoid:				34.2
+	linear-sigmoid-sigmoid-tanh:					25.7
+	linear-sigmoid-tanh-linear:						30.8
+	linear-sigmoid-tanh-sigmoid:					37.6
+	linear-sigmoid-tanh-tanh:							20.6
+	linear-tanh-linear-linear:						33.3
+	linear-tanh-linear-sigmoid:						38.2
+	linear-tanh-linear-tanh:							27.4
+	linear-tanh-sigmoid-linear:						40.1
+	linear-tanh-sigmoid-sigmoid:					33.8
+	linear-tanh-sigmoid-tanh:							30.8
+	linear-tanh-tanh-linear:							34.5
+	linear-tanh-tanh-sigmoid:							35.2
+	linear-tanh-tanh-tanh:								31.2
+	sigmoid-linear-linear-linear:					19.7	43.2
+	sigmoid-linear-linear-sigmoid:				29.4	33.5
+	sigmoid-linear-linear-tanh:						15.6	
+	sigmoid-linear-sigmoid-linear:				20.5	39.7
+	sigmoid-linear-sigmoid-sigmoid:				24.9	31.6
+	sigmoid-linear-sigmoid-tanh:					23.7	
+	sigmoid-linear-tanh-linear:						17.9
+	sigmoid-linear-tanh-sigmoid:					34.0
+	sigmoid-linear-tanh-tanh:							22.8
+	sigmoid-sigmoid-linear-linear:				15.7	48.5
+	sigmoid-sigmoid-linear-sigmoid:				20.1	38.1
+	sigmoid-sigmoid-linear-tanh:					9.1		
+	sigmoid-sigmoid-sigmoid-linear:				20.2	35.3
+	sigmoid-sigmoid-sigmoid-sigmoid:			10.8	33.5
+	sigmoid-sigmoid-sigmoid-tanh:					10.0
+	sigmoid-sigmoid-tanh-linear:					16.5
+	sigmoid-sigmoid-tanh-sigmoid:					22.4
+	sigmoid-sigmoid-tanh-tanh:						9.6
+	sigmoid-tanh-linear-linear:						14.4
+	sigmoid-tanh-linear-sigmoid:					35.8
+	sigmoid-tanh-linear-tanh:							14.7
+	sigmoid-tanh-sigmoid-linear:					19.7
+	sigmoid-tanh-sigmoid-sigmoid:					16.2
+	sigmoid-tanh-sigmoid-tanh:						18.3
+	sigmoid-tanh-tanh-linear:							20.8
+	sigmoid-tanh-tanh-sigmoid:						29.8
+	sigmoid-tanh-tanh-tanh:								13.8
+	tanh-linear-linear-linear:						23.9
+	tanh-linear-linear-sigmoid:						33.1
+	tanh-linear-linear-tanh:							24.7
+	tanh-linear-sigmoid-linear:						39.2
+	tanh-linear-sigmoid-sigmoid:					33.0
+	tanh-linear-sigmoid-tanh:							34.9
+	tanh-linear-tanh-linear:							29.7
+	tanh-linear-tanh-sigmoid:							33.9
+	tanh-linear-tanh-tanh:								36.7
+	tanh-sigmoid-linear-linear:						31.4
+	tanh-sigmoid-linear-sigmoid:					31.7
+	tanh-sigmoid-linear-tanh:							30.3
+	tanh-sigmoid-sigmoid-linear:					29.9
+	tanh-sigmoid-sigmoid-sigmoid:					21.9
+	tanh-sigmoid-sigmoid-tanh:						29.3
+	tanh-sigmoid-tanh-linear:							31.9
+	tanh-sigmoid-tanh-sigmoid:						27.3
+	tanh-sigmoid-tanh-tanh:								27.5
+	tanh-tanh-linear-linear:							44.1	50.5
+	tanh-tanh-linear-sigmoid:							37.7
+	tanh-tanh-linear-tanh:								39.8
+	tanh-tanh-sigmoid-linear:							28.6
+	tanh-tanh-sigmoid-sigmoid:						31.7
+	tanh-tanh-sigmoid-tanh:								30.0
+	tanh-tanh-tanh-linear:								40.4	50.7
+	tanh-tanh-tanh-sigmoid:								34.7
+	tanh-tanh-tanh-tanh:									30.2
+
+five layer:																				15k		100k
+	linear-linear-linear-linear-sigmoid:						10.6
+	linear-linear-linear-linear-tanh:								11.0
+	linear-linear-linear-sigmoid-linear:						26.2
+	linear-linear-linear-sigmoid-sigmoid:						22.8
+	linear-linear-linear-sigmoid-tanh:							23.2
+	linear-linear-linear-tanh-linear:								27.8
+	linear-linear-linear-tanh-sigmoid:							29.6
+	linear-linear-linear-tanh-tanh:									28.2
+	linear-linear-sigmoid-linear-linear:						18.9
+	linear-linear-sigmoid-linear-sigmoid:						25.6
+	linear-linear-sigmoid-linear-tanh:							22.0
+	linear-linear-sigmoid-sigmoid-linear:						24.3
+	linear-linear-sigmoid-sigmoid-sigmoid:					20.8
+	linear-linear-sigmoid-sigmoid-tanh:							24.9
+	linear-linear-sigmoid-tanh-linear:							32.0
+	linear-linear-sigmoid-tanh-sigmoid:							22.5
+	linear-linear-sigmoid-tanh-tanh:								29.8
+	linear-linear-tanh-linear-linear:								36.2
+	linear-linear-tanh-linear-sigmoid:							18.0
+	linear-linear-tanh-linear-tanh:									29.8
+	linear-linear-tanh-sigmoid-linear:							24.9
+	linear-linear-tanh-sigmoid-sigmoid:							21.1
+	linear-linear-tanh-sigmoid-tanh:								30.3
+	linear-linear-tanh-tanh-linear:									28.5
+	linear-linear-tanh-tanh-sigmoid:								27.8
+	linear-linear-tanh-tanh-tanh:										30.2
+	linear-sigmoid-linear-linear-linear:						17.6
+	linear-sigmoid-linear-linear-sigmoid:						23.1
+	linear-sigmoid-linear-linear-tanh:							18.0
+	linear-sigmoid-linear-sigmoid-linear:						26.2
+	linear-sigmoid-linear-sigmoid-sigmoid:					20.3
+	linear-sigmoid-linear-sigmoid-tanh:							25.1
+	linear-sigmoid-linear-tanh-linear:							24.9
+	linear-sigmoid-linear-tanh-sigmoid:							25.0
+	linear-sigmoid-linear-tanh-tanh:								17.9
+	linear-sigmoid-sigmoid-linear-linear:						24.1
+	linear-sigmoid-sigmoid-linear-sigmoid:					16.6
+	linear-sigmoid-sigmoid-linear-tanh:							25.1
+	linear-sigmoid-sigmoid-sigmoid-linear:					18.9
+	linear-sigmoid-sigmoid-sigmoid-sigmoid:					9.6
+	linear-sigmoid-sigmoid-sigmoid-tanh:						16.7
+	linear-sigmoid-sigmoid-tanh-linear:							24.1
+	linear-sigmoid-sigmoid-tanh-sigmoid:						22.0
+	linear-sigmoid-sigmoid-tanh-tanh:								23.7
+	linear-sigmoid-tanh-linear-linear:							24.8
+	linear-sigmoid-tanh-linear-sigmoid:							25.8
+	linear-sigmoid-tanh-linear-tanh:								18.0
+	linear-sigmoid-tanh-sigmoid-linear:							25.5
+	linear-sigmoid-tanh-sigmoid-sigmoid:						20.8
+	linear-sigmoid-tanh-sigmoid-tanh:								25.8
+	linear-sigmoid-tanh-tanh-linear:								30.1
+	linear-sigmoid-tanh-tanh-sigmoid:								25.0
+	linear-sigmoid-tanh-tanh-tanh:									17.9
+	linear-tanh-linear-linear-linear:								29.0
+	linear-tanh-linear-linear-sigmoid:							29.1
+	linear-tanh-linear-linear-tanh:									25.9
+	linear-tanh-linear-sigmoid-linear:							19.9
+	linear-tanh-linear-sigmoid-sigmoid:							22.7
+	linear-tanh-linear-sigmoid-tanh:								16.7
+	linear-tanh-linear-tanh-linear:									35.1
+	linear-tanh-linear-tanh-sigmoid:								21.9
+	linear-tanh-linear-tanh-tanh:										31.1
+	linear-tanh-sigmoid-linear-linear:							33.4
+	linear-tanh-sigmoid-linear-sigmoid:							30.3
+	linear-tanh-sigmoid-linear-tanh:								27.0
+	linear-tanh-sigmoid-sigmoid-linear:							22.1
+	linear-tanh-sigmoid-sigmoid-sigmoid:						24.8
+	linear-tanh-sigmoid-sigmoid-tanh:								26.4
+	linear-tanh-sigmoid-tanh-linear:								29.0
+	linear-tanh-sigmoid-tanh-sigmoid:								21.6
+	linear-tanh-sigmoid-tanh-tanh:									25.8
+	linear-tanh-tanh-linear-linear:									29.6
+	linear-tanh-tanh-linear-sigmoid:								27.6
+	linear-tanh-tanh-linear-tanh:										30.8
+	linear-tanh-tanh-sigmoid-linear:								24.0
+	linear-tanh-tanh-sigmoid-sigmoid:								20.0
+	linear-tanh-tanh-sigmoid-tanh:									28.7
+	linear-tanh-tanh-tanh-linear:										40.2	41.4
+	linear-tanh-tanh-tanh-sigmoid:									21.0
+	linear-tanh-tanh-tanh-tanh:											27.9
+	sigmoid-linear-linear-linear-linear:						9.7
+	sigmoid-linear-linear-linear-sigmoid:						20.5
+	sigmoid-linear-linear-linear-tanh:							7.5
+	sigmoid-linear-linear-sigmoid-linear:						20.0
+	sigmoid-linear-linear-sigmoid-sigmoid:					13.6
+	sigmoid-linear-linear-sigmoid-tanh:							17.7
+	sigmoid-linear-linear-tanh-linear:							17.2
+	sigmoid-linear-linear-tanh-sigmoid:							23.2
+	sigmoid-linear-linear-tanh-tanh:								7.4
+	sigmoid-linear-sigmoid-linear-linear:						18.1
+	sigmoid-linear-sigmoid-linear-sigmoid:					23.4
+	sigmoid-linear-sigmoid-linear-tanh:							17.9
+	sigmoid-linear-sigmoid-sigmoid-linear:					9.0
+	sigmoid-linear-sigmoid-sigmoid-sigmoid:					21.2
+	sigmoid-linear-sigmoid-sigmoid-tanh:						10.0
+	sigmoid-linear-sigmoid-tanh-linear:							18.2
+	sigmoid-linear-sigmoid-tanh-sigmoid:						26.0
+	sigmoid-linear-sigmoid-tanh-tanh:								19.0
+	sigmoid-linear-tanh-linear-linear:							16.8
+	sigmoid-linear-tanh-linear-sigmoid:							23.5
+	sigmoid-linear-tanh-linear-tanh:								11.3
+	sigmoid-linear-tanh-sigmoid-linear:							24.2
+	sigmoid-linear-tanh-sigmoid-sigmoid:						16.4
+	sigmoid-linear-tanh-sigmoid-tanh:								18.9
+	sigmoid-linear-tanh-tanh-linear:								19.2
+	sigmoid-linear-tanh-tanh-sigmoid:								25.1
+	sigmoid-linear-tanh-tanh-tanh:									16.7
+	sigmoid-sigmoid-linear-linear-linear:						17.4
+	sigmoid-sigmoid-linear-linear-sigmoid:					14.2
+	sigmoid-sigmoid-linear-linear-tanh:							10.3
+	sigmoid-sigmoid-linear-sigmoid-linear:					17.7
+	sigmoid-sigmoid-linear-sigmoid-sigmoid:					9.6
+	sigmoid-sigmoid-linear-sigmoid-tanh:						17.9
+	sigmoid-sigmoid-linear-tanh-linear:							18.0
+	sigmoid-sigmoid-linear-tanh-sigmoid:						16.2
+	sigmoid-sigmoid-linear-tanh-tanh:								15.9
+	sigmoid-sigmoid-sigmoid-linear-linear:					13.2
+	sigmoid-sigmoid-sigmoid-linear-sigmoid:					11.9
+	sigmoid-sigmoid-sigmoid-linear-tanh:						18.4
+	sigmoid-sigmoid-sigmoid-sigmoid-linear:					17.6
+	sigmoid-sigmoid-sigmoid-sigmoid-sigmoid:				9.4
+	sigmoid-sigmoid-sigmoid-sigmoid-tanh:						15.3
+	sigmoid-sigmoid-sigmoid-tanh-linear:						13.6
+	sigmoid-sigmoid-sigmoid-tanh-sigmoid:						8.2
+	sigmoid-sigmoid-sigmoid-tanh-tanh:							17.5
+	sigmoid-sigmoid-tanh-linear-linear:							18.7
+	sigmoid-sigmoid-tanh-linear-sigmoid:						10.3
+	sigmoid-sigmoid-tanh-linear-tanh:								13.0
+	sigmoid-sigmoid-tanh-sigmoid-linear:						16.3
+	sigmoid-sigmoid-tanh-sigmoid-sigmoid:						9.4
+	sigmoid-sigmoid-tanh-sigmoid-tanh:							17.3
+	sigmoid-sigmoid-tanh-tanh-linear:								17.4
+	sigmoid-sigmoid-tanh-tanh-sigmoid:							18.2
+	sigmoid-sigmoid-tanh-tanh-tanh:									17.3
+	sigmoid-tanh-linear-linear-linear:							12.3
+	sigmoid-tanh-linear-linear-sigmoid:							21.8
+	sigmoid-tanh-linear-linear-tanh:								8.8
+	sigmoid-tanh-linear-sigmoid-linear:							24.3
+	sigmoid-tanh-linear-sigmoid-sigmoid:						20.9
+	sigmoid-tanh-linear-sigmoid-tanh:								18.5
+	sigmoid-tanh-linear-tanh-linear:								10.2
+	sigmoid-tanh-linear-tanh-sigmoid:								23.0
+	sigmoid-tanh-linear-tanh-tanh:									16.0
+	sigmoid-tanh-sigmoid-linear-linear:							17.0
+	sigmoid-tanh-sigmoid-linear-sigmoid:						16.0
+	sigmoid-tanh-sigmoid-linear-tanh:								17.4
+	sigmoid-tanh-sigmoid-sigmoid-linear:						16.1
+	sigmoid-tanh-sigmoid-sigmoid-sigmoid:						21.6
+	sigmoid-tanh-sigmoid-sigmoid-tanh:							8.2
+	sigmoid-tanh-sigmoid-tanh-linear:								18.0
+	sigmoid-tanh-sigmoid-tanh-sigmoid:							16.7
+	sigmoid-tanh-sigmoid-tanh-tanh:									10.5
+	sigmoid-tanh-tanh-linear-linear:								24.5
+	sigmoid-tanh-tanh-linear-sigmoid:								20.8
+	sigmoid-tanh-tanh-linear-tanh:									13.4
+	sigmoid-tanh-tanh-sigmoid-linear:								18.1
+	sigmoid-tanh-tanh-sigmoid-sigmoid:							12.4
+	sigmoid-tanh-tanh-sigmoid-tanh:									18.2
+	sigmoid-tanh-tanh-tanh-linear:									16.0
+	sigmoid-tanh-tanh-tanh-sigmoid:									23.2
+	sigmoid-tanh-tanh-tanh-tanh:										13.7
+	tanh-linear-linear-linear-linear:								16.0
+	tanh-linear-linear-linear-sigmoid:							31.7
+	tanh-linear-linear-linear-tanh:									15.0
+	tanh-linear-linear-sigmoid-linear:							25.1
+	tanh-linear-linear-sigmoid-sigmoid:							21.5
+	tanh-linear-linear-sigmoid-tanh:								26.9
+	tanh-linear-linear-tanh-linear:									26.9
+	tanh-linear-linear-tanh-sigmoid:								30.9
+	tanh-linear-linear-tanh-tanh:										30.0
+	tanh-linear-sigmoid-linear-linear:							18.9
+	tanh-linear-sigmoid-linear-sigmoid:							23.2
+	tanh-linear-sigmoid-linear-tanh:								25.5
+	tanh-linear-sigmoid-sigmoid-linear:							31.4
+	tanh-linear-sigmoid-sigmoid-sigmoid:						22.6
+	tanh-linear-sigmoid-sigmoid-tanh:								26.9
+	tanh-linear-sigmoid-tanh-linear:								26.2
+	tanh-linear-sigmoid-tanh-sigmoid:								22.2
+	tanh-linear-sigmoid-tanh-tanh:									26.3
+	tanh-linear-tanh-linear-linear:									42.4	45.2
+	tanh-linear-tanh-linear-sigmoid:								22.8
+	tanh-linear-tanh-linear-tanh:										28.7
+	tanh-linear-tanh-sigmoid-linear:								23.6
+	tanh-linear-tanh-sigmoid-sigmoid:								22.5
+	tanh-linear-tanh-sigmoid-tanh:									23.5
+	tanh-linear-tanh-tanh-linear:										28.9
+	tanh-linear-tanh-tanh-sigmoid:									14.4
+	tanh-linear-tanh-tanh-tanh:											27.8
+	tanh-sigmoid-linear-linear-linear:							17.5
+	tanh-sigmoid-linear-linear-sigmoid:							23.6
+	tanh-sigmoid-linear-linear-tanh:								26.0
+	tanh-sigmoid-linear-sigmoid-linear:							23.1
+	tanh-sigmoid-linear-sigmoid-sigmoid:						21.0
+	tanh-sigmoid-linear-sigmoid-tanh:								25.7
+	tanh-sigmoid-linear-tanh-linear:								27.6
+	tanh-sigmoid-linear-tanh-sigmoid:								21.6
+	tanh-sigmoid-linear-tanh-tanh:									18.4
+	tanh-sigmoid-sigmoid-linear-linear:							24.0
+	tanh-sigmoid-sigmoid-linear-sigmoid:						15.7
+	tanh-sigmoid-sigmoid-linear-tanh:								23.8
+	tanh-sigmoid-sigmoid-sigmoid-linear:						22.6
+	tanh-sigmoid-sigmoid-sigmoid-sigmoid:						9.7
+	tanh-sigmoid-sigmoid-sigmoid-tanh:							21.4
+	tanh-sigmoid-sigmoid-tanh-linear:								25.3
+	tanh-sigmoid-sigmoid-tanh-sigmoid:							24.6
+	tanh-sigmoid-sigmoid-tanh-tanh:									17.9
+	tanh-sigmoid-tanh-linear-linear:								27.5
+	tanh-sigmoid-tanh-linear-sigmoid:								25.5
+	tanh-sigmoid-tanh-linear-tanh:									22.1
+	tanh-sigmoid-tanh-sigmoid-linear:								26.7
+	tanh-sigmoid-tanh-sigmoid-sigmoid:							17.4
+	tanh-sigmoid-tanh-sigmoid-tanh:									25.7
+	tanh-sigmoid-tanh-tanh-linear:									23.9
+	tanh-sigmoid-tanh-tanh-sigmoid:									25.1
+	tanh-sigmoid-tanh-tanh-tanh:										25.6
+	tanh-tanh-linear-linear-linear:									31.8
+	tanh-tanh-linear-linear-sigmoid:								27.3
+	tanh-tanh-linear-linear-tanh:										25.1
+	tanh-tanh-linear-sigmoid-linear:								24.1
+	tanh-tanh-linear-sigmoid-sigmoid:								17.0
+	tanh-tanh-linear-sigmoid-tanh:									18.4
+	tanh-tanh-linear-tanh-linear:										43.5	51.0
+	tanh-tanh-linear-tanh-sigmoid:									30.8
+	tanh-tanh-linear-tanh-tanh:											30.9
+	tanh-tanh-sigmoid-linear-linear:								26.6
+	tanh-tanh-sigmoid-linear-sigmoid:								28.9
+	tanh-tanh-sigmoid-linear-tanh:									25.9
+	tanh-tanh-sigmoid-sigmoid-linear:								27.0
+	tanh-tanh-sigmoid-sigmoid-sigmoid:							23.7
+	tanh-tanh-sigmoid-sigmoid-tanh:									26.8
+	tanh-tanh-sigmoid-tanh-linear:									18.1
+	tanh-tanh-sigmoid-tanh-sigmoid:									21.7
+	tanh-tanh-sigmoid-tanh-tanh:										26.0
+	tanh-tanh-tanh-linear-linear:										29.3
+	tanh-tanh-tanh-linear-sigmoid:									29.1
+	tanh-tanh-tanh-linear-tanh:											27.5
+	tanh-tanh-tanh-sigmoid-linear:									25.3
+	tanh-tanh-tanh-sigmoid-sigmoid:									23.2
+	tanh-tanh-tanh-sigmoid-tanh:										29.2
+	tanh-tanh-tanh-tanh-linear:											31.4
+	tanh-tanh-tanh-tanh-sigmoid:										21.5
+	tanh-tanh-tanh-tanh-tanh:												33.0

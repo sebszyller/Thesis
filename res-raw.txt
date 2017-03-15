@@ -1,0 +1,32 @@
+for activations ('linear', 'linear'): accuracy: 5.43789124218
+
+for activations ('linear', 'relu'): accuracy: 7.41385172298
+
+for activations ('linear', 'tanh'): accuracy: 5.27389452212
+
+for activations ('linear', 'sigmoid'): accuracy: 5.27789444212
+
+for activations ('relu', 'linear'): accuracy: 5.04389912203
+
+for activations ('relu', 'relu'): accuracy: 3.57992840144
+
+for activations ('relu', 'tanh'): accuracy: 6.76386472271
+
+for activations ('relu', 'sigmoid'): accuracy: 5.51988960222
+
+for activations ('tanh', 'linear'): accuracy: 7.93384132318
+
+for activations ('tanh', 'relu'): accuracy: 5.56388872237
+
+for activations ('tanh', 'tanh'): accuracy: 4.72990540189
+
+for activations ('tanh', 'sigmoid'): accuracy: 8.89782204357
+
+for activations ('sigmoid', 'linear'): accuracy: 5.85388292235
+
+for activations ('sigmoid', 'relu'): accuracy: 6.84186316274
+
+for activations ('sigmoid', 'tanh'): accuracy: 5.37389252216
+
+for activations ('sigmoid', 'sigmoid'): accuracy: 6.44987100273
+
